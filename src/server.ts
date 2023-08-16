@@ -487,3 +487,6 @@ app.post("/sheet/:ssId/unlockcell", (req, res) => {
 // app.delete('/user:userid', (req, res) => {
 //     console.log( `DELETE /user/${req.params.userid}`);
 // }   );
+
+// export express api
+module.exports = app;
