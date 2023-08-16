@@ -1,0 +1,47 @@
+
+.homeContainer {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    /* make the child component align center */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* .userNameTitle {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: darkblue
+} */
+
+/* .enterButton {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #788ef1;
+    background-color: #788ef1;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.newUserButton {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #66daff;
+    background-color: #66daff;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+    margin-left: 10px;
+} */

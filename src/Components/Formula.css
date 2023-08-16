@@ -1,0 +1,59 @@
+/** 
+  * Formula component styles
+  * @module src/Components/Formula.css
+  * text is right-aligned
+  * background color is black
+  * border color is dark gray
+  * text color is monitor green
+  * font size is 20px
+  * font is bold
+  * font is courier
+  */
+.formulaAndResultContainer {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.formulaContainer
+.resultContainer {
+  width: 350px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.formula {
+  background-color: whitesmoke;
+  border: 2px solid gainsboro;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-family: courier;
+  font-size: 20px;
+  font-weight: bold;
+  width: 250px;
+  height: 30px;
+}
+
+.result {
+  background-color: #000000;
+  border: 5px solid #121412;
+  color: #039703;
+  padding: 15px 32px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-family: courier;
+  width: 250px;
+}

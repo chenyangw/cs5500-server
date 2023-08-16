@@ -1,0 +1,23 @@
+.user {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.logOutButton {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #788ef1;
+    background-color: #788ef1;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.logOutButton:hover {
+    background-color: #feec65;
+    border: 1px solid #feec65;
+}

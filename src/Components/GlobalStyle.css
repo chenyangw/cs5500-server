@@ -1,0 +1,69 @@
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: darkblue
+}
+
+
+.textInput {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid #788ef1;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: large;
+}
+.textInput:focus {
+    outline: none;
+}
+.textInput::placeholder {
+    color: #ccc;
+    font-size: large;
+}
+.textInput:hover {
+    border: 1px solid #66daff;
+}
+.textInput:active {
+    border: 1px solid #66daff;
+}
+.textInput:focus {
+    border: 1px solid #66daff;
+}
+
+.buttonWideInPurple {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #788ef1;
+    background-color: #788ef1;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.buttonWideInPurple:hover {
+    background-color: #feec65;
+    border: 1px solid #feec65;
+}
+
+.buttonWiderinBlue {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #66daff;
+    background-color: #66daff;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.buttonWiderinBlue:hover {
+    background-color: #feec65;
+    border: 1px solid #feec65;
+}
