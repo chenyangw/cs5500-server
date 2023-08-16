@@ -42,7 +42,6 @@
   },
   "scripts": {
     "start": "nodemon --watch src/server.ts --exec ts-node src/server.ts",
-    "build": "rimraf dist && tsc",
     "ts.check": "tsc --project tsconfig.json",
     "add-build": "git add dist",
     "test": "echo \"Error: no test specified\" && exit 1",
