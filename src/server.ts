@@ -45,13 +45,7 @@ app.get("/", (req, res) => {
   // str pretty print
   const str = JSON.stringify(process.env, null, 4);
 
-  res.send(
-    "<p>Hello World!</p><p>env:</p><pre>" +
-      str +
-      "</pre><p>address: " +
-      en0.address +
-      "</p>"
-  );
+  res.send("<p>Hello World!</p><p>address: " + en0.address + "</p>");
 });
 
 // Set up WebSocket server
